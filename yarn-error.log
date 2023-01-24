@@ -1,0 +1,91 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\flutter\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\jumanjian\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jre1.8.0_361;C:\Users\jumanjian\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\jumanjian\AppData\Local\Programs\Python\Python311\;C:\Users\jumanjian\AppData\Local\Programs\Python\Launcher\;C:\Users\jumanjian\AppData\Local\Microsoft\WindowsApps;C:\Users\jumanjian\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jumanjian\AppData\Roaming\npm;C:\Users\jumanjian\AppData\Roaming\Composer\vendor\bin;C:\Users\jumanjian\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:220:20)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo-google-fonts/poppins": "^0.2.2",
+      "@expo/vector-icons": "^13.0.0",
+      "@gorhom/bottom-sheet": "^4.4.5",
+      "@react-native-async-storage/async-storage": "^1.17.11",
+      "@react-native-community/datetimepicker": "6.5.2",
+      "@react-navigation/bottom-tabs": "^6.5.3",
+      "@react-navigation/native": "^6.1.2",
+      "@react-navigation/native-stack": "^6.9.8",
+      "@reduxjs/toolkit": "^1.9.1",
+      "axios": "^1.2.3",
+      "buffer": "^6.0.3",
+      "dayjs": "^1.11.7",
+      "eas-cli": "^3.4.0",
+      "expo": "^47.0.13",
+      "expo-clipboard": "^4.0.1",
+      "expo-file-system": "^15.1.1",
+      "expo-font": "^11.0.1",
+      "expo-image-picker": "^14.0.2",
+      "expo-local-authentication": "^13.0.2",
+      "expo-sharing": "^11.0.1",
+      "expo-splash-screen": "^0.17.5",
+      "expo-status-bar": "^1.4.2",
+      "jwt-decode": "^3.1.2",
+      "moment": "^2.29.4",
+      "react": "18.1.0",
+      "react-dom": "18.1.0",
+      "react-native": "0.70.5",
+      "react-native-datepicker": "^1.7.2",
+      "react-native-element-dropdown": "^2.5.3",
+      "react-native-expo-fancy-alerts": "^2.0.1",
+      "react-native-gesture-bottom-sheet": "^1.1.0",
+      "react-native-gesture-handler": "~2.8.0",
+      "react-native-image-picker": "^5.0.1",
+      "react-native-modal-datetime-picker": "^14.0.1",
+      "react-native-paper": "^5.1.3",
+      "react-native-reanimated": "~2.12.0",
+      "react-native-safe-area-context": "4.4.1",
+      "react-native-screens": "~3.18.0",
+      "react-native-select-dropdown": "^3.2.1",
+      "react-native-svg": "13.4.0",
+      "react-native-swiper": "^1.6.0",
+      "react-native-unimodules": "^0.15.0",
+      "react-native-vector-icons": "^9.2.0",
+      "react-native-web": "^0.18.10",
+      "react-redux": "^8.0.5",
+      "redux": "^4.2.0",
+      "redux-thunk": "^2.4.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.19.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
